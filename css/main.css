@@ -1,7 +1,41 @@
 html {
 	box-sizing: border-box;
+	font-family: 'Contrail One', sans-serif;
 }
 
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+div {
+
+}
+
+.brain {
+	position: absolute;
+	width: 46px;
+
+}
+
+.body {
+	position: absolute;
+	width: 320px;
+	top: 50px;
+	left: 150px;
+	right: 10px;
+}
+
+.right-head {
+	position: absolute;
+	width: 125px;
+	left: 50%;
+	top: ;
+}
+
+.left{
+	position: absolute;
+	width: 125px;
+	right: 50%;
+	top: ;
+}
+
