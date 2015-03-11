@@ -5,3 +5,20 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+.brain {
+position: absolute;
+width: 320px;
+
+}
+
+.head {
+position: absolute;
+}
+
+.right{
+position: absolute;
+}
+
+.left {
+	position: absolute;
+}
