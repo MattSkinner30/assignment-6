@@ -33,12 +33,13 @@ header {
 	display: block;
 }
 
-.right {
+
+.right{
 	position: absolute;
 	width: 125px;
+	bottom: 28.5%%;
 	left: 50%;
-	top: ;
-}
+	transition: all 300ms linear; }
 
 .left {
 	position: absolute;
@@ -60,15 +61,19 @@ h1 {
 	margin:	0;
 	text-align: center;
 	padding: 1em 0;
+	box-shadow: inset 0 0 10px #000000;
+	padding-top: .5em;
+	padding-bottom: .5em;
 }
 
-.robot:hover; .right {
+.robot:hover .right {
 	left: 60%;
 }
+
 .robot:hover .left {
 	right: 60%;
 }
 
-.robot:hover; .brain {
+.robot:hover .brain {
 	bottom: 60%;
 }
