@@ -25,7 +25,7 @@ div {
 	right: 10px;
 }
 
-.right-head {
+.right {
 	position: absolute;
 	width: 125px;
 	left: 50%;
@@ -39,3 +39,12 @@ div {
 	top: ;
 }
 
+h1 {
+	background-color: #1a2230;
+	color: #ffffff;
+	margin:	0;
+}
+
+.robot:hover; .right {
+	left: 50%
+}
