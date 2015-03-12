@@ -7,8 +7,11 @@ html {
 	box-sizing: inherit;
 }
 
-div {
-
+header {
+	position: relative;
+	background-color: #2c3950;
+	overflow: hidden;
+	width: 100%;
 }
 
 .brain {
@@ -39,12 +42,21 @@ div {
 	top: ;
 }
 
+.robot {
+	margin: 0 auto;
+	width: 320px;
+}
+
 h1 {
 	background-color: #1a2230;
 	color: #ffffff;
 	margin:	0;
+	text-align: center;
 }
 
 .robot:hover; .right {
-	left: 50%
+	left: 60%;
+}
+.robot:hover .left {
+	right: 60%;
 }
